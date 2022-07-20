@@ -1,0 +1,120 @@
+ body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner start */
+
+.banner {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    border-radius: 15px;
+}
+.banner-text {
+    width: 50%;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px 15px;
+}
+.banner-text h1{
+    font-size: 70px;
+}
+.banner-text h1:hover {
+    color: cyan;
+    border: 1px solid tomato;
+}
+.banner-img {
+    width: 50%;
+}
+.banner-img img {
+    width: 100%;
+}
+.banner-text a {
+    background-color: red;
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.banner-text a:hover {
+    background-color: cyan;
+    border: 1px solid orange;
+    color: orange;
+    padding: 9px 19px;
+    cursor: pointer;
+}
+
+/* banner end */
+
+.main-section {
+    display: flex;
+    width: 100%;
+    margin: 20px 10px;
+
+}
+.manuvar {
+    width: 50%;
+    border-radius: 10px;
+  
+}
+   
+ul{
+    list-style: none;
+    padding: 20px 30px;
+    
+   
+}
+li a {
+    display: block;
+    width: 80%;
+    text-decoration: none;
+    border: 20px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container {
+    width: 20%;
+    height: 0%;
+    margin: 10px;
+    margin-top: 7%;
+}
+.container a {
+    text-decoration: none;
+}
+
+.full-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+    
+}
+
+
+footer {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: black;
+}
+.contuct {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0%;
+
+}
+h1 {
+    color: aliceblue;
+    text-align: center;
+
+}
+.contuct a {
+    text-decoration: none;
+    color: aliceblue;
+}
