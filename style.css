@@ -125,5 +125,6 @@ margin: 10px;
 }
 .social-icon a {
  color: aliceblue;
+ justify-content: space-between;
 
 }
