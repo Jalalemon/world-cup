@@ -57,7 +57,7 @@
     margin: 20px 10px;
 
 }
-.menuvar {
+.menubar {
     width: 50%;
     border-radius: 10px;
   
@@ -98,6 +98,8 @@ li a {
     margin-top: 10px;
     
 }
+
+
 /* main end */
 /* footer start */
 
@@ -139,7 +141,7 @@ margin: 10px;
 @media  only screen and (max-width: 600px) {
     .banner, .main-section, .full-blog, .contuct, .ul {
         width: 100%;
-        display: grid;
+            display: grid;
             grid-template-columns: repeat(1, 1fr);
             justify-content: center;
             align-items: center;
@@ -165,4 +167,87 @@ margin: 10px;
     }
 
 }
+
 /*  mobile media end */
+
+
+
+
+
+
+/* ---------------------
+------------Upcoming match style start
+--------------------- */
+
+.box, .nav-and-box, .picture {
+    display: flex;
+    margin: 10px;
+}
+.box {
+    margin: 10px;
+}
+.nav-list {
+
+    
+
+}
+.nav-list ul {
+  
+
+}
+.nav-list ul li {
+    border: 20px solid black;
+    padding: 10px;
+
+}
+picture img {
+    width: 100%;
+    margin: 10px;
+}
+.picture {
+    margin: 10px;
+   
+}
+.under-picture {
+    width: 50%;
+}
+.box {
+    border: 1px solid black;
+    margin: 5px;
+   
+    font-size: 10px;
+   
+}
+h2 {
+    margin: 10px;
+}
+.nav-and-box {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+        align-items: center;
+
+}
+/* upcoming match Mobile media */
+
+@media only screen and (max-width: 600px) {
+    .nav-and-box {
+        display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+            align-items: center;
+    }
+
+}
+/* Upcoming-match Tab media */
+
+@media only screen and (min-width: 768px) {
+    .nav-and-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+}
