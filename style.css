@@ -99,7 +99,7 @@ li a {
 
 footer {
     margin-top: 60px;
-    padding: 30px;
+    padding: 40px;
     background-color: black;
 }
 .contuct {
@@ -117,4 +117,13 @@ h1 {
 .contuct a {
     text-decoration: none;
     color: aliceblue;
+}
+.social-icon {
+text-align: center;
+margin: 10px;
+  
+}
+.social-icon a {
+ color: aliceblue;
+
 }
